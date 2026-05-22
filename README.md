@@ -1,17 +1,44 @@
-# bmi_calculator
+BMI Calculator App
 
-A new Flutter project.
+A beginner Flutter application that calculates Body Mass Index (BMI) based on height and weight input.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Animated Splash Screen using Lottie
+- BMI Calculation
+- Height & Weight Input
+- BMI Category Result
+- Simple and Clean UI
+- Navigation between screens
 
-A few resources to get you started if this is your first Flutter project:
+## Built With
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Flutter
+- Dart
+- Lottie Animation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screens
+
+### Splash Screen
+- Lottie animation splash screen
+- Automatic navigation to home screen
+
+### Home Screen
+- Enter height in cm
+- Enter weight in kg
+- Calculate BMI
+- Shows BMI result and category
+
+## BMI Formula
+
+BMI = weight (kg) / height² (m²)
+
+## What I Learned
+
+- Flutter project structure
+- StatefulWidget
+- Navigation in Flutter
+- TextEditingController
+- setState()
+- Lottie animations
+- UI layout using Column, Padding, SizedBox
